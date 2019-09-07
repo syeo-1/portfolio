@@ -1,0 +1,180 @@
+body {
+  font-family: Roboto, sans-serif;
+/*  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+*/}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+section .row img {
+  width: 100%;
+  padding-left: 0px;
+}
+img .col-sm-6 {
+  margin: 0 0 0px;
+}
+h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+/*section .container {
+  background-color: brown;
+  border-style: solid;
+  border-width: 150px;
+  border-color: #92a8d1;
+}*/
+
+section .container #about-me {
+  background-color: black;
+}
+
+header .container {
+  background-color: #fff;
+}
+
+body {
+  background-color: #e0d7d1;
+}
+
+nav {
+  display: flex;
+/*  justify-content: flex-end;*/
+  float: left;
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 24px;
+}
+
+header div nav a {
+  padding: 0 20px;
+  margin: 0;
+  color: grey;
+  hover: black;
+}
+
+nav a:hover {
+  color: black;
+}
+
+a {
+  padding: 0 20px;
+  margin: 0;
+  color: grey;
+}
+
+#description {
+  margin: 0;
+  /*padding: 0;*/
+}
+/*#description-photo {
+  margin: 0;
+  padding: 0;
+}*/
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('./images/landscape.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 700px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;/*20px*/
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;/*30px*/
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #2a70e0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.portrait {
+  width:  350px;
+  height: 300px;
+
+  /*background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;*/
+}
+
+.portrait:hover {
+  border-style: solid;
+  border-color: black;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
